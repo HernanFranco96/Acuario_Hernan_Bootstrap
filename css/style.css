@@ -169,6 +169,14 @@ body{
         justify-content: center;
         align-items: center;
     }
+    /*Galeria*/
+    .galeria{
+        width: 80%;
+        margin: auto;
+    }
+    .galeria .card .img__galeria{
+        height: 300px;
+    }
     /*aside*/
     .aside{
         display: flex;
@@ -199,6 +207,10 @@ body{
     }
 }
 @media only screen and (max-width: 560px){
+    /*Galeria*/
+    .galeria{
+        width: 100%;
+    }
     /*aside*/
     .aside{
         display: none;
@@ -211,6 +223,7 @@ body{
     }
 }
 @media only screen and (max-width: 390px){
+
     /*footer*/
     .footer .nav-item p{
         display: none;
