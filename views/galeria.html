@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
+    <title>Galeria</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -26,10 +26,10 @@
                                     <a class="nav-link" href="../index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="producto.html">Producto</a>
+                                    <a class="nav-link" href="producto.html">Producto</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="galeria.html">Galeria</a>
+                                    <a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Nosotros</a>
@@ -44,69 +44,42 @@
             </div>
         </header>
         <!-- MAIN -->
-        <main class="main main-producto row">
-            <div class="articulo col-lg-8 col-12">
-                <div class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                        <button class="navbar-btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#submenu" aria-controls="submenu" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="submenu collapse navbar-collapse" id="submenu">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a href="" class="nav-link active"  aria-current="page">Peces</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="" class="nav-link">Peceras</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="" class="nav-link">Accesorios</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="" class="nav-link">Alimentos</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>  
-                </div>
-                <div class="articulos row row-cols-1 row-cols-md-2 g-4 justify-content-center w-100">
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="../assets/img/Productos/betta/betta-1.png" class="img__producto card-img-top" alt="...">
+        <main class="main row">
+            <div class="col-lg-8 col-12">
+                <div class="card-group row">
+                    <div class="col-lg-6 col-12">
+                        <div class="card h-50 m-1 rounded">
+                            <img src="../assets/img/Acuarios/acuario-2.jpg" class="img__galeria card-img-top" alt="Acuario">
                             <div class="card-body">
-                                <h5 class="card-title">Descripción</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-success">COMPRAR</a>
+                                <h5 class="card-title">Acuario de 70 Litros</h5>
+                                <p class="card-text"><small class="text-muted">Actualizado hace 2 meses</small></p>
+                                <a href="#" class="btn btn-success">MAS</a>
+                            </div>
+                            </div>
+                        <div class="card h-50 m-1 rounded">
+                            <img src="../assets/img/Acuarios/acuario-4.jpg" class="img__galeria card-img-top" alt="Acuario">
+                            <div class="card-body">
+                                <h5 class="card-title">Acuario de 120 Litros</h5>
+                                <p class="card-text"><small class="text-muted">Actualizado hace 25 dias</small></p>
+                                <a href="#" class="btn btn-success">MAS</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="../assets/img/Productos/betta/betta-2.png" class="img__producto card-img-top" alt="...">
+                    <div class="col-lg-6 col-12">
+                        <div class="card h-50 m-1 rounded">
+                            <img src="../assets/img/Acuarios/Acuario-6.jpg" class="img__galeria card-img-top" alt="Acuario">
                             <div class="card-body">
-                                <h5 class="card-title">Descripción</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-success">COMPRAR</a>
+                                <h5 class="card-title">Acuario de 180 Litros</h5>
+                                <p class="card-text"><small class="text-muted">Actualizado hace 25 dias</small></p>
+                                <a href="#" class="btn btn-success">MAS</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="../assets/img/Productos/betta/betta-2.png" class="img__producto card-img-top" alt="...">
+                        <div class="card h-50 m-1 rounded">
+                            <img src="../assets/img/Acuarios/acuario.jpg" class="img__galeria card-img-top" alt="Acuario">
                             <div class="card-body">
-                                <h5 class="card-title">Descripción</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-success">COMPRAR</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="../assets/img/Productos/betta/betta-red.png" class="img__producto card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Descripción</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-success">COMPRAR</a>
+                                <h5 class="card-title">Acuario de 100 Litros</h5>
+                                <p class="card-text"><small class="text-muted">Actualizado hace 25 dias</small></p>
+                                <a href="#" class="btn btn-success">MAS</a>
                             </div>
                         </div>
                     </div>
